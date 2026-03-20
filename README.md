@@ -6,10 +6,10 @@ Steganography is the art of hiding information in plain sight. This project lets
 
 ---
 ### How It Works (Overview)
-=> Image
+=> **Image:**
 Uses LSB steganography where message bits replace the least significant bits of image pixels. The visual difference is usually unnoticeable.
 
-=> Audio
+=> **Audio**
 Message bits are inserted into the least significant bits of audio frame bytes. A delimiter (like ###END###) is used to know where the message stops.
 
 ###  Features
